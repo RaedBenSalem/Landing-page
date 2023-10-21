@@ -1,13 +1,169 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-background-color: #1f2937;
-} 
 
-header{
-   display: flex;
+
+
+header , footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+flex-wrap: wrap;
+color: #f9faf8;
 }
+
+
+
+.logo{
+    min-width: 100%;
+    margin-bottom: 40px;
+}
+
+.logo1 {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex: 1 1 auto;
+    gap: 20px;
+    color: white;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+
+.one {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    
+
+}
+
+.one h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.one1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.one2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9c9c9c;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+
+}
+
+button {
+    align-self: flex-start;
+    margin: 10px 0px;
+    background-color:#388ef6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #f9faf8;
+    border-color: #282835;
+
+
+}
+
+.two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    gap: 30px;
+}
+.two h1{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.two .card img{
+    width:200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.two .card p{
+    text-align: center;
+    color: #1f2937; font-size: 16px;
+margin-top: 5px;
+}
+
+.three{
+    padding: 50px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+    background-color:#e5e7eb ;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    margin-top: 25px;
+}
+
+.three1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+
+.three .p1{
+    min-width: 100% ;
+} 
+.three .p2 {
+   margin-left: auto;
+   text-transform: capitalize;
+   font-weight: bold;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four0{
+    margin: 100px auto;
+    width: 800px;
+    background-color: #205799;
+    color: #f9faf8;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
